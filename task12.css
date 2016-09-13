@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*盒子*/
+.box {
+    width: 100%;
+    max-width: 1920px;
+    overflow: hidden;
+}
+
+.top {
+    position: relative;
+    background-color: #1d7ad9;
+    overflow: hidden;
+    height: 40px;
+}
+
+.top-box {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tel {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #ffffff;
+    padding: 12px 0 14px 0;
+}
+
+.top-box ul {
+    list-style: none;
+    float: right;
+}
+
+.top-box ul li {
+    display: inline-block;
+    font-size: 1.602rem;
+    text-align: center;
+}
+
+.top-box ul li a {
+    text-decoration: none;
+    width: 104px;
+    display: inline-block;
+    margin: 12px -20px 7px 0;
+    color: #ffffff;
+}
+
+.a1 {
+    border-left: 1px #ffffff solid;
+    border-right: 1px #ffffff solid;
+}
+
+.top-box ul li a:hover {
+    color: #333333;
+    background-color: #ffffff;
+    padding: 11px 0 8px 0;
+    margin: 0;
+}
+
+/*导航*/
+.header {
+    width: 100%;
+    max-width: 1920px;
+}
+
+.navigation {
+    width: 100%;
+    max-width: 1920px;
+    background-color: #f9f9f9;
+}
+
+.nav-bar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 28px 0;
+    font-size: 1.602rem;
+}
+
+.a2 {
+    display: inline-block;
+    float: right;
+    white-space: nowrap;
+    border: 1px #e6e6e6 solid;
+    border-radius: 5px;
+    padding: 14px 17px 16px 17px;
+    margin-left: 5%;
+}
+
+.header .navigation .nav-bar a {
+    text-decoration: none;
+
+    font-size: 1.602rem;
+    color: #333333;
+}
+
+.header .navigation .nav-bar .a2:hover {
+    color: #ffffff;
+    background-color: #1d7ad9;
+}
+
+.clear {
+    clear: both;
+}
+
+/*隐藏*/
+
+.nav-log {
+    display: none;
+}
+
+.nav-log p {
+    font-size: 3rem;
+    float: right;
+    clear: both;
+}
+
+.nav-log ul {
+    width: 100%;
+    list-style: none;
+    font-size: 2rem;
+    padding-top: 45px;
+}
+
+.nav-log ul li {
+    text-align: center;
+}
+
+.header .navigation .nav-log a:hover
+{text-decoration: none;
+    color: #ffffff;
+    background-color: #1d7ad9;
+}
+
+/*步骤*/
+.step {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row ul {
+    float: right;
+}
+
+.row li {
+    list-style-type: none;
+    float: left;
+    color: #cccccc;
+    position: relative;
+    border-top: solid 5px #cccccc;
+    margin-top: 50px; /*与上间距*/
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row li div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    left: 50px;
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+}
+
+.step .row ul .color {
+    color: #ff7f02;
+    border-top: solid 5px #ff7f02;
+}
+
+.step .row ul .color1 {
+    background-color: #ff7f02;
+}
+
+.row li:hover {
+    color: #ff7f02;
+    border-top: solid 5px #ff7f02;
+}
+
+.row li:hover div {
+    background-color: #ff7f02;
+}
+
+/*表格*/
+.main {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: #e8e8e8 1px solid;
+}
+
+/*差蓝色点*/
+.main p {
+    display: inline-block;
+    font-size: 2.2rem;
+    color: #333333;
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+
+.sub {
+    font-size: 1.8rem;
+    color: #1d7ad9;
+    background-color: #f2f2f2;
+    height: 45px;
+    width: 100%;
+    max-width: 1200px;
+    line-height: 45px;
+    padding-left: 15px;
+}
+
+.form {
+    display: inline-block;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.nav-bar-down {
+    float: right;
+}
+
+select {
+    width: 120px;
+    height: 32px;
+    border: solid 1px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("images/xia_03.png") no-repeat scroll right center transparent;
+    margin-right: 15px;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.choose-type div {
+    float: left;
+    height: 85px;
+    line-height: 85px;
+    background-color: #fbfcff;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+.choose-material div {
+    float: left;
+    height: 85px;
+    line-height: 85px;
+    background-color: #fbfcff;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+.size {
+    float: left;
+    line-height: 40px;
+    padding-left: 25px;
+}
+
+.long {
+    width: 70px;
+    height: 30px;
+}
+
+/*按钮*/
+.bottom {
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 8.3%;
+}
+
+button {
+    outline: none;
+    border: 0;
+    width: 15%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #e15053;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+    color: #999999;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.foot {
+    padding-top: 110px;
+}
+
+.foot1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 170px;
+}
+
+.foot2 {
+    float: left;
+    margin-right: 210px;
+
+}
+
+.foot2 a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #999;
+}
+
+.foot2 span, .foot2 p {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.foot3 {
+    float: right;
+}
+
+.footer-tel {
+    float: left;
+}
+
+.footer-tel p {
+    padding-bottom: 15px;
+}
+
+#copyright {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    background-color: #1d7ad9;
+    font-size: 14px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1120px) {
+    .footer-tel p {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .foot3 {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .foot1, .foot2, .foot3 {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .footer-tel {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {.d span{display: block;}
+
+
+    .nav-log {
+        display: block;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .nav-log ul {
+        display: none;
+    }
+
+    .nav-log:hover ul {
+        display: block;
+    }
+}
